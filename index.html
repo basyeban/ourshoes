@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OurShoes</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/icon/Logo biru.png"
+      type="image/x-icon"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/style/style.css" />
+
+    <!-- Jonsuh Hamburger -->
+    <link rel="stylesheet" href="./assets/style/hamburgers.css" />
+
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body id="home">
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <!-- Navbar -->
+        <div class="navbar">
+          <div class="logo">
+            <h1>OurShoes</h1>
+          </div>
+          <ul class="menu">
+            <h1>OurShoes</h1>
+            <h3>Overview</h3>
+            <li>
+              <i class="fa-solid fa-house"></i>
+              <a href="#home">Beranda</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-house-circle-check"></i>
+              <a href="#our-house">Layanan</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-address-card"></i>
+              <a href="#about">Tentang Kami</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-gear"></i>
+              <a href="#services">Sistem Pengerjaan</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-thumbs-up"></i>
+              <a href="#feedback">Feedback</a>
+            </li>
+          </ul>
+          <div class="our-app">
+            <a
+              href="https://wa.me/6281227203652"
+              target="_blank"
+              class="our-app-btn"
+            >
+              <i class="fab fa-whatsapp"></i> Chat Me
+            </a>
+
+            <!-- btn hamburger -->
+            <button class="hamburger hamburger--spin" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero -->
+        <div class="hero">
+          <h1>
+            Find Your Dream <br />
+            Clean With Us
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ipsa
+            laborum facere officiis odit soluta, aspernatur veritatis voluptates
+            repudiandae vel?
+          </p>
+          <button>Find Your Clean</button>
+        </div>
+      </div>
+    </header>
+    <!-- Header -->
+
+    <!-- Our House -->
+    <div class="our-house" id="our-house">
+      <div class="container">
+        <h1 data-aos="fade-up" data-aos-duration="1000">Paket Bersih</h1>
+        <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+          Pilihlah Paket sesuai kebutuhan anda
+        </p>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/images/house-1.jpg" alt="house-img" />
+              <div class="house-desc">
+                <p>outsole,midsole & upper (estimasi 1-2 hari)</p>
+                <h2>Paket Express</h2>
+                <h4>Rp. 20.000,00</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/house-2.jpg" alt="house-img" />
+              <div class="house-desc">
+                <p>insole, outsole, midsole, & Upper (estimasi 2-4 hari)</p>
+                <h2>Paket Detail</h2>
+                <h4>Rp. 25.000,00</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/house-3.jpg" alt="house-img" />
+              <div class="house-desc">
+                <p>Perawatan midsole yang menguning (estimasi 3-6 hari)</p>
+                <h2>Yellwoing Treatment</h2>
+                <h4>Rp. 40.000,00</h4>
+              </div>
+            </div>
+            <!-- <div class="swiper-slide">
+              <img src="./assets/images/house-4.jpg" alt="house-img" />
+              <div class="house-desc">
+                <p>Ujung Berung Street, Bandung City, West Java</p>
+                <h2>Villa Home 4</h2>
+                <h4>Rp. 500.000.000</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/house-5.jpg" alt="house-img" />
+              <div class="house-desc">
+                <p>Ujung Berung Street, Bandung City, West Java</p>
+                <h2>Villa Home 5</h2>
+                <h4>Rp. 500.000.000</h4>
+              </div>
+            </div>-->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!--<div class="btn-our-house">
+          <button>Lihat Selengkapnya</button>
+        </div>-->
+      </div>
+    </div>
+    <!-- Our House -->
+
+    <!-- About Us -->
+    <div class="about" id="about">
+      <div class="container">
+        <div class="about-box">
+          <div class="box">
+            <img src="./assets/images/about-img.jpg" alt="about-img" />
+          </div>
+          <div class="box">
+            <h1 data-aos="fade-up" data-aos-duration="1000">
+              Find Your Dream <br />
+              Clean With Us
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+              est ratione ipsum veritatis. Maxime maiores obcaecati animi in
+              minima molestias.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              quia nemo beatae accusamus consectetur quaerat!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Us -->
+
+    <!-- Services -->
+    <div class="services" id="services">
+      <div class="container">
+        <h1 data-aos="fade-up" data-aos-duration="1000">3 Langkah</h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          Pengerjaan Dihari Selasa, Kamis, Sabtu & Minggu
+        </p>
+        <div class="service-box">
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <i class="fa-solid fa-check"></i>
+            <h3>Pemilihan Paket</h3>
+            <p>
+              Pilihlah paket sesuai dengan kebutuhan sepatu anda kemudian konsultasi kepada
+              admin
+            </p>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Pengambilan</h3>
+            <p>
+              Tentukan jadwal untuk pengambilan sepatu dengan admin
+            </p>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="700"
+          >
+            <i class="fa-solid fa-bars-progress"></i>
+            <h3>Pengerjaan</h3>
+            <p>
+              Pengerjaan dilakukan sesuai dengan nomor antrian dan estimasi sesuai paket
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+
+    <!-- Recover App -->
+    <div class="recover">
+      <div class="container">
+        <div class="recover-box">
+          <div class="box">
+            <h1>We Are Also Available In The Apps</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              neque?
+            </p>
+
+            <div>
+              <img src="./assets/images/playstore.png" alt="playstore logo" />
+              <img src="./assets/images/ios-app.png" alt="ios-app logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Recover App -->
+
+    <!-- Feedback -->
+    <div class="feedback" id="feedback">
+      <div class="container">
+        <h1 data-aos="fade-up" data-aos-duration="1000">
+          Feedback <br />
+          From Our Customer
+        </h1>
+        <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+        <div class="feedback-box">
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              at ratione quam deleniti voluptas alias blanditiis placeat culpa
+              debitis! Omnis excepturi rem necessitatibus fugit sapiente
+              recusandae sed voluptate doloremque dolorem.
+            </p>
+            <div class="people">
+              <img src="./assets/images/people-1.jpg" alt="feedback-people" />
+              <div class="people-desc">
+                <h3>People 1</h3>
+                <p>UI UX Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              at ratione quam deleniti voluptas alias blanditiis placeat culpa
+              debitis! Omnis excepturi rem necessitatibus fugit sapiente
+              recusandae sed voluptate doloremque dolorem.
+            </p>
+            <div class="people">
+              <img src="./assets/images/people-2.jpg" alt="feedback-people" />
+              <div class="people-desc">
+                <h3>People 2</h3>
+                <p>UI UX Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              at ratione quam deleniti voluptas alias blanditiis placeat culpa
+              debitis! Omnis excepturi rem necessitatibus fugit sapiente
+              recusandae sed voluptate doloremque dolorem.
+            </p>
+            <div class="people">
+              <img src="./assets/images/people-3.jpg" alt="feedback-people" />
+              <div class="people-desc">
+                <h3>People 3</h3>
+                <p>UI UX Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              at ratione quam deleniti voluptas alias blanditiis placeat culpa
+              debitis! Omnis excepturi rem necessitatibus fugit sapiente
+              recusandae sed voluptate doloremque dolorem.
+            </p>
+            <div class="people">
+              <img src="./assets/images/people-1.jpg" alt="feedback-people" />
+              <div class="people-desc">
+                <h3>People 4</h3>
+                <p>UI UX Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              at ratione quam deleniti voluptas alias blanditiis placeat culpa
+              debitis! Omnis excepturi rem necessitatibus fugit sapiente
+              recusandae sed voluptate doloremque dolorem.
+            </p>
+            <div class="people">
+              <img src="./assets/images/people-2.jpg" alt="feedback-people" />
+              <div class="people-desc">
+                <h3>People 5</h3>
+                <p>UI UX Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              at ratione quam deleniti voluptas alias blanditiis placeat culpa
+              debitis! Omnis excepturi rem necessitatibus fugit sapiente
+              recusandae sed voluptate doloremque dolorem.
+            </p>
+            <div class="people">
+              <img src="./assets/images/people-3.jpg" alt="feedback-people" />
+              <div class="people-desc">
+                <h3>People 6</h3>
+                <p>UI UX Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              at ratione quam deleniti voluptas alias blanditiis placeat culpa
+              debitis! Omnis excepturi rem necessitatibus fugit sapiente
+              recusandae sed voluptate doloremque dolorem.
+            </p>
+            <div class="people">
+              <img src="./assets/images/people-1.jpg" alt="feedback-people" />
+              <div class="people-desc">
+                <h3>People 7</h3>
+                <p>UI UX Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              at ratione quam deleniti voluptas alias blanditiis placeat culpa
+              debitis! Omnis excepturi rem necessitatibus fugit sapiente
+              recusandae sed voluptate doloremque dolorem.
+            </p>
+            <div class="people">
+              <img src="./assets/images/people-2.jpg" alt="feedback-people" />
+              <div class="people-desc">
+                <h3>People 8</h3>
+                <p>UI UX Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              at ratione quam deleniti voluptas alias blanditiis placeat culpa
+              debitis! Omnis excepturi rem necessitatibus fugit sapiente
+              recusandae sed voluptate doloremque dolorem.
+            </p>
+            <div class="people">
+              <img src="./assets/images/people-3.jpg" alt="feedback-people" />
+              <div class="people-desc">
+                <h3>People 9</h3>
+                <p>UI UX Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--<div class="load-more">
+          <button class="load-more-btn">Load More <i class="fa-solid fa-arrow-down"></i></button>
+        </div>-->
+      </div>
+    </div>
+    <!-- Feedback -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-box">
+          <div class="box">
+            <h2>OurShoes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="footer-icon">
+              <a href="https://www.instagram.com/our.shoes25/" target="_blank">
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <h3>Menu</h3>
+            <a href="#">Beranda</a>
+            <a href="#our-house">Layanan</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#services">Sistem Pengerjaan</a>
+            <a href="#feedback">Feedback</a>
+          </div>
+          <!--<div class="box">
+            <h3>Company</h3>
+            <a href="#">Blog</a>
+            <a href="#">Our Apps</a>
+            <a href="#">Brochure</a>
+          </div>--> 
+          <div class="box">
+            <h3>Contact Us</h3>
+            <!-- <p><i class="fa-solid fa-envelope"></i> rumahkita@gmail.com</p>-->
+            <p>
+              <a href="https://wa.me/+6281227203652">
+                <i class="fa-solid fa-phone"></i> +62 812-2720-3652
+              </a>
+            </p>
+
+            <p>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Jalan+Bersinar+kita,+Jawa+tengah,+Indonesia"
+                target="_blank"
+              >
+                <i class="fa-solid fa-location-dot"></i> Jalan Bersinar kita,
+                Jawa tengah, Indonesia
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>
+        &copy; Copyright 2024 by <span>OurShoes</span>, All Rights Reserved.
+      </p>
+    </div>
+    <!-- Copyright -->
+
+    <!-- JS -->
+    <script src="./dist/js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          575: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
